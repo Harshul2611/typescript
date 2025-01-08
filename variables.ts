@@ -9,6 +9,11 @@ greetings.toLowerCase();
 
 console.log(greetings);
 
+// Type Boolean
+
+let isLoggenIn: boolean = true;
+
+
 export {}; // to avoid TS error: Cannot redeclare block-scoped variable 'greetings'.ts(2451)
 
 
